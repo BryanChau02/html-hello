@@ -1,0 +1,41 @@
+*{
+    border: 0.5px;
+}
+body{
+    background-color: white;
+    border: 1px gainsboro solid;
+}
+.header{
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.top1, .top2, .top3, .top4 {
+    display: flex;
+    background-color: white;
+    border: 1px gainsboro solid;
+}
+.bottom1, .bottom2, .bottom3, .bottom4 {
+    background-color: white;
+    display: flex;
+    border: 1px gainsboro solid;
+}
+.pic1, .pic2, .pic3, .pic4 {
+    background-color: white;
+    border: 1px gainsboro solid;
+}
+.date1, .date2, .date3, .date4 {
+    color: gainsboro;
+    text-align: end;
+    margin-left: auto;
+}
+.firstPhoto, .secondPhoto, .thirdPhoto, .fourthPhoto{
+    max-width: 500px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 4px;
+}
+.feed{
+    background-color: gainsboro;
+}
